@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarf_names)
 end
 
 def summon_captain_planet(planeteer_calls)
-  combine_powers = planeteer_calls.map{ |call| "#{call.titleize}!" }
+  combine_powers = planeteer_calls.map{ |call| "#{call.capitalize}!" }
 end
 
 def long_planeteer_calls# code an argument here
