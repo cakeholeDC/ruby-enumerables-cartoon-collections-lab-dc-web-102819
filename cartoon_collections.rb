@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(found_food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  found_food.first? { |item| item = cheese_types.any? { |cheese| item = cheese }
+  found_food.first if found_food.each { |item| item = cheese_types.any? { |cheese| item = cheese }
 end
