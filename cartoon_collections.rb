@@ -11,6 +11,6 @@ def long_planeteer_calls(long_calls)
 end
 
 def find_the_cheese(found_food)
-  found_food.first? { |
   cheese_types = ["cheddar", "gouda", "camembert"]
+  found_food.first? { |item| cheese_types.any? { |cheese| item = cheese } }
 end
